@@ -1,0 +1,10 @@
+version: "3"
+
+agent:
+    authtoken: 2sjXnij5GxGvhakFpwgRS4PrxDo_6byYoiFmZkvmxvpkSo6vv
+
+tunnels:
+  basic:
+    proto: http
+    addr: http://host.docker.internal:5678
+    url: modern-boar-selected.ngrok-free.app
