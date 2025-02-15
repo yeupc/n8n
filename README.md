@@ -44,7 +44,7 @@ Engineering world, handles large amounts of data safely.
 
 ```
 git clone https://github.com/tuyenhm68/self-hosted-ai-starter-kit-2.git
-cd ai-agents-masterclass/local-ai-packaged
+self-hosted-ai-starter-kit-2
 docker compose --profile gpu-nvidia up
 ```
 
@@ -68,7 +68,7 @@ for installation instructions, and run the starter kit as follows:
 
 ```
 git clone https://github.com/tuyenhm68/self-hosted-ai-starter-kit-2.git
-cd ai-agents-masterclass/local-ai-packaged
+self-hosted-ai-starter-kit-2
 docker compose up
 ```
 
@@ -79,7 +79,7 @@ by using `http://host.docker.internal:11434/` as the host.
 
 ```
 git clone https://github.com/tuyenhm68/self-hosted-ai-starter-kit-2.git
-cd ai-agents-masterclass/local-ai-packaged
+self-hosted-ai-starter-kit-2
 docker compose --profile cpu up
 ```
 
