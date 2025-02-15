@@ -10,7 +10,7 @@ n8n instance if you use this setup instead of the base one provided by n8n!
 
 [Original Local AI Starter Kit](https://github.com/n8n-io/self-hosted-ai-starter-kit)
 
-Download my N8N + OpenWebUI integration [directly on the Open WebUI site.](https://openwebui.com/f/coleam/n8n_pipe/) (more instructions below)
+Download N8N + OpenWebUI integration [directly on the Open WebUI site.](https://openwebui.com/f/coleam/n8n_pipe/) (more instructions below)
 
 ![n8n.io - Screenshot](https://raw.githubusercontent.com/n8n-io/self-hosted-ai-starter-kit/main/assets/n8n-demo.gif)
 
@@ -43,7 +43,7 @@ Engineering world, handles large amounts of data safely.
 ### For Nvidia GPU users
 
 ```
-git clone https://github.com/coleam00/ai-agents-masterclass.git
+git clone https://github.com/tuyenhm68/self-hosted-ai-starter-kit-2.git
 cd ai-agents-masterclass/local-ai-packaged
 docker compose --profile gpu-nvidia up
 ```
@@ -67,7 +67,7 @@ If you want to run Ollama on your mac, check the
 for installation instructions, and run the starter kit as follows:
 
 ```
-git clone https://github.com/coleam00/ai-agents-masterclass.git
+git clone https://github.com/tuyenhm68/self-hosted-ai-starter-kit-2.git
 cd ai-agents-masterclass/local-ai-packaged
 docker compose up
 ```
@@ -78,7 +78,7 @@ by using `http://host.docker.internal:11434/` as the host.
 ### For everyone else
 
 ```
-git clone https://github.com/coleam00/ai-agents-masterclass.git
+git clone https://github.com/tuyenhm68/self-hosted-ai-starter-kit-2.git
 cd ai-agents-masterclass/local-ai-packaged
 docker compose --profile cpu up
 ```
