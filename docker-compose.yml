@@ -171,3 +171,14 @@ services:
         - 4040:4040
       depends_on:
         - n8n  
+  # Uncomment the following block to enable Cloudflare Tunnel
+  # cloudflare-tunnel:
+  #     image: cloudflare/cloudflared:latest              
+  #     container_name: cloudflare-tunnel                 
+  #     hostname: cloudflare-tunnel                            
+  #     restart: unless-stopped                           
+  #     command: tunnel --no-autoupdate run
+  #     environment:
+  #       - TUNNEL_TOKEN=${CLOUDFLARE_TUNNEL_TOKEN}       
+  #     depends_on:
+  #       - n8n
